@@ -1,0 +1,8 @@
+# Data files #
+##############
+# Note: We may wish to version control these in GitHub later when Git LFS is available
+ClinVarFullRelease_*
+disease.xml
+gene.txt
+
+.DS_Store
