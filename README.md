@@ -20,12 +20,13 @@ Usage:  `python3 obtain_external_data_files.py [--help] [--source {hgnc,orphanet
 
 # Experimental Clinvar parsers
 --Generated from the April 3, 2015 `clinvar_public.xsd` available from the ClinVar ftp site using the generateDS python package
+
 NOTE: Python2.7 only, and must `pip install lxml` first  
 NOTE2: Has to read in the whole XML file so developing using smaller files (like ClinVar sample file) while still "in progress" recommended  
 NOTE3: These are just starter scripts, as a proof of concept that we could generate Python data structures from the ClinVar ftp data even if the 
 upstream schema changes. These would then need to be modified or used in combination with other scripts to subsequently shape the data to our 
 JSON-LD needs but maybe without the heavy lifting of doing a lot of work to re-shape the parser(s) each time the schema changes.
 
-`clinvar_sub.py [clinvar.xml]`  (just outputs input xml currently)  
+-- `python clinvar_sub.py [clinvar.xml]`  (just outputs input xml currently)  
 
-`clinvar_api.py [clinvar.xml]`  (just outputs input xml currently)  
+-- `python clinvar_api.py [clinvar.xml]`  (just outputs input xml currently)  
