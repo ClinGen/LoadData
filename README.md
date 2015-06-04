@@ -17,3 +17,11 @@ Usage:  `python3 obtain_external_data_files.py [--help] [--source {hgnc,orphanet
 
 (requires the python `requests` module: `pip3 install requests`)
 
+
+# Experimental Clinvar parsers
+--Generated from the April 3, 2015 `clinvar_public.xsd` available from the ClinVar ftp site using the generateDS python package
+NOTE: Python2.7 only, and must `pip install lxml` first
+NOTE2: Has to read in the whole XML file so developing using smaller files (like ClinVar sample file) while still "in progress" recommended
+
+`clinvar_sub.py [clinvar.xml]`  (just outputs input xml currently)
+`clinvar_api.py [clinvar.xml]`  (just outputs input xml currently)
