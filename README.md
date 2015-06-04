@@ -26,5 +26,5 @@ NOTE3: These are just starter scripts, as a proof of concept that we could gener
 upstream schema changes. These would then need to be modified or used in combination with other scripts to subsequently shape the data to our 
 JSON-LD needs but maybe without the heavy lifting of doing a lot of work to re-shape the parser(s) each time the schema changes.
 
-`clinvar_sub.py [clinvar.xml]`  (just outputs input xml currently)
-`clinvar_api.py [clinvar.xml]`  (just outputs input xml currently)
+`clinvar_sub.py [clinvar.xml]`  (just outputs input xml currently)  
+`clinvar_api.py [clinvar.xml]`  (just outputs input xml currently)  
